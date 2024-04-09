@@ -1,0 +1,18 @@
+/* Next Sibling Selector */
+.first-input + input {
+  background-color: red;
+}
+
+div > div {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+}
+
+body > div {
+  background-color: blue;
+}
+
+.container:first-child {
+  border: 1px solid black;
+}

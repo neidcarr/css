@@ -1,0 +1,15 @@
+/* Will be used when the screen width is 992px or more. */
+@media (min-width: 992px) {
+    .container {
+        color: red;
+        background-color: blue;
+    }
+}
+
+/* Will be used when the screen width is 992px or less. */
+@media (max-width: 992px) {
+    .container {
+        color: blue;
+        background-color: blanchedalmond;
+    }
+}
